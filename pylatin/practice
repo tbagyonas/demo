@@ -1,0 +1,27 @@
+x='abcd'
+print(x.upper())
+for i in range(len(x)):
+    x[i].upper()
+    print(x[i],end="")
+print(x)
+print(True>False)
+print(True<False)
+
+
+#x=float(input("Enter the value of x:"))
+#y=(1/(x+1/(x+1/(x+1/x))))
+#print(y)
+#print(642//60)
+hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+
+# Write your code here.
+x=dura%60
+y=x+mins
+z=y%60
+hourly=y//60
+duration=hour + hourly
+print("the total duration is:",duration)
+print("the number of minu:",z)
+

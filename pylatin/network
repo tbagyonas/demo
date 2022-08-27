@@ -1,0 +1,8 @@
+import requests
+domain = ''
+result = requests.get('http://' + domain)
+ssl_result = requests.get('https://' + domain).status_code
+if(ssl_result == 200):
+    uses_ssl = True
+else:
+    uses_ssl = False

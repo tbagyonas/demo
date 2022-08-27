@@ -1,4 +1,5 @@
 from googletrans import Translator, LANGUAGES
+from pprint import pprint
 
 text = 'Buruk is my son'
 t = Translator().translate(text, dest='am')

@@ -1,0 +1,26 @@
+
+# create empty list to hold user input
+elements = []
+
+# ask user to input elements
+count = int(input("How many numbers ?:"))
+
+# append or put all the lists in array
+for n in range(count):
+    number = float(input("Enter the number:"))
+    elements.append(number)  # append all the elements
+print(elements)  # print all the elements
+print(elements[::-1])
+for i in range(1, count):
+    if elements[0] < elements[i]:
+        elements[0] = elements[i]
+print("The largest Element of this list is :", elements[0])
+# add counries to the list using while loop
+user_input = input("\nEnter 'a' to add a country to your list, or 'q' to quit the program:")
+countries_name = []
+while user_input !='q':
+  if user_input == 'a':
+    add_country = input("Enter the name of the country:")
+    countries_name.append(add_country)
+  user_input = input("\nEnter 'a' to add a country to your list, or 'q' to quit the program:")
+print(countries_name)
