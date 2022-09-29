@@ -1,4 +1,5 @@
-Interface       IP-Address                        S/L  Speed/Duplex  Description
+Interface       IPAddress                        S/L  Speed/Duplex  Description
+#-------       ----------                        ---- ------------  -----------
 dp0ce0          -                                 u/D  auto/auto         -
 dp0ce1          -                                 u/D  auto/auto         -
 dp0p7s0         10.156.43.100/24                  u/u  a-1g/a-full   Mgmt Network
